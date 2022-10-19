@@ -23,35 +23,26 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oKVAU53sVnrQfE2QN7S9UV0Dc9TI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'TOLASJnrY5Sm3Jr51SGE1vUSoNagsKVEzhUy4cw-DAg',
+      useTemplateId: 'HNeafLD5a6kW_V6iEM8tZOBAwLsbdfaEl3XqctxmPVM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-20',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-        },
+          type: '生日', name: '梅梅', year: '1999', date: '10-20',
+        }
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'love_day', date: '2022-08-18' }
       ],
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'TOLASJnrY5Sm3Jr51SGE1vUSoNagsKVEzhUy4cw-DAg',
+  CALLBACK_TEMPLATE_ID: 'JYLnukS-z3E82UEAj_1LrGmA7Li2OLWTp4bkoM_dpKc',
 
   CALLBACK_USERS: [
     {
